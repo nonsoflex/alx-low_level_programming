@@ -4,12 +4,12 @@
  * main - main functions
  *
  * Return: Always 0 (Success)
- *
  */
 
 int main(void)
 {
-	int x, y;
+	int x;
+	int y;
 
 	for (y = 0 ; y < 10 ; y++)
 	{
@@ -23,7 +23,7 @@ int main(void)
 				putchar(' ');
 			}
 			else
-			putchar('\n');
+				putchar('\n');
 		}
 	}
 	return (0);
