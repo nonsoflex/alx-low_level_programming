@@ -21,7 +21,7 @@ int main(void)
 		term1 = term2;
 		term2 = next;
 		if (i != 49)
-			printf(",");
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
